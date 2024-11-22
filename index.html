@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Sederhana dengan Kaligrafi</title>
+    <style>
+        /* Tata letak tengah dan latar belakang */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+        }
+
+        /* Kontainer utama */
+        .container {
+            text-align: center;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            max-width: 700px;
+            width: 100%;
+        }
+
+        /* Header halaman */
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        /* Gambar kaligrafi */
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        /* Gaya untuk formulir */
+        form {
+            margin: 20px 0;
+        }
+
+        input, button {
+            padding: 10px;
+            margin: 5px 0;
+            width: calc(100% - 20px);
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Gaya tabel */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+
+        th {
+            background-color: #007BFF;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Gambar Kaligrafi -->
+        <h1>Hallo</h1>
+        <img src="https://2.bp.blogspot.com/-_yWCxelOcb4/UA5OgvCX6dI/AAAAAAAAA8A/4urQocFqXZc/s1600/Kaligrafi+Bismillah.jpg" 
+             alt="Kaligrafi Bismillah">
+
+        <!-- Formulir -->
+        <h1>Formulir</h1>
+        <form action="/submit" method="post">
+            <input type="text" id="nama" name="nama" placeholder="Masukkan Nama Anda" required>
+            <input type="email" id="email" name="email" placeholder="Masukkan Email Anda" required>
+            <button type="submit">Kirim</button>
+        </form>
+
+        <!-- Tabel Data -->
+        <h1>Tabel Data</h1>
+        <table>
+            <tr>
+                <th>Nama</th>
+                <th>Umur</th>
+                <th>Kota</th>
+            </tr>
+            <tr>
+                <td>Rara</td>
+                <td>19</td>
+                <td>Lamongan</td>
+            </tr>
+            <tr>
+                <td>Faza</td>
+                <td>20</td>
+                <td>Demak</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
